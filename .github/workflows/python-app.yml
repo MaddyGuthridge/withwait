@@ -23,10 +23,7 @@ jobs:
     - run: poetry install
     - name: Test with pytest
       run: |
-        poetry run coverage run -m pytest
-    - name: Generate code coverage report
-      run: |
-        poetry run coverage report
+        poetry run -m pytest
 
   Flake8:
     runs-on: ubuntu-latest
