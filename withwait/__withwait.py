@@ -2,7 +2,7 @@
 Main implementation for withwait
 """
 from types import TracebackType
-from typing import ContextManager
+from typing import ContextManager, Union
 from time import time, sleep
 
 
@@ -25,9 +25,9 @@ class wait(ContextManager):
 
     def __exit__(
         self,
-        __exc_type: type[BaseException] | None,
-        __exc_value: BaseException | None,
-        __traceback: TracebackType | None
+        __exc_type: Union[type[BaseException], None],
+        __exc_value: Union[BaseException, None],
+        __traceback: Union[TracebackType, None],
     ) -> None:
         time_to_sleep = self.__seconds - (time() - self.__start_time)
         # Wait the remaining required time if needed
