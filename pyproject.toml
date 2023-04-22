@@ -1,7 +1,9 @@
 [tool.poetry]
 name = "withwait"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple utility to ensure that sleep operations always complete"
+readme = "README.md"
+
 authors = ["Miguel Guthridge <hdsq@outlook.com.au>"]
 license = "MIT"
 
