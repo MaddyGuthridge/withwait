@@ -1,7 +1,7 @@
 # Withwait
 
-A simple utility to ensure that a sleep operation always completes, even if an
-exception happens in code within the with statement.
+A simple utility to ensure that sleep operations always complete, even if an
+exception happens within the with statement.
 
 ## Usage
 
