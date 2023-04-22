@@ -42,7 +42,7 @@ python-versions = ">=3.7"
 name = "jestspectation"
 version = "0.9.1"
 description = "Pattern matching helper classes designed to allow for testing of complex data structures in a readable and logical format."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.9.1"
 
@@ -155,7 +155,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9.1"
-content-hash = "320dac46cbeae5940579160a6f517cca64719077659f650e1dedb01dd6e8a6ed"
+content-hash = "faafb6bc3df419a844f46e093e0132c29757286e7abe9727d7c01cbca319c196"
 
 [metadata.files]
 colorama = [
