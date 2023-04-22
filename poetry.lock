@@ -40,11 +40,14 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "jestspectation"
-version = "0.9.1"
-description = "Pattern matching helper classes designed to allow for testing of complex data structures in a readable and logical format."
-category = "main"
+version = "1.0.0"
+description = "Pattern matching helper classes designed to allow for testing of complex data structures in a readable and logical format"
+category = "dev"
 optional = false
-python-versions = ">=3.9.1"
+python-versions = ">=3.9,<4.0"
+
+[package.dependencies]
+typing-extensions = ">=4.5.0,<5.0.0"
 
 [[package]]
 name = "mccabe"
@@ -155,7 +158,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9.1"
-content-hash = "faafb6bc3df419a844f46e093e0132c29757286e7abe9727d7c01cbca319c196"
+content-hash = "41e4c94e2308aaadc4e3242176bcc03a7e406de0036c82fe90f86c25c6c58865"
 
 [metadata.files]
 colorama = [
@@ -175,8 +178,8 @@ iniconfig = [
     {file = "iniconfig-2.0.0.tar.gz", hash = "sha256:2d91e135bf72d31a410b17c16da610a82cb55f6b0477d1a902134b24a455b8b3"},
 ]
 jestspectation = [
-    {file = "Jestspectation-0.9.1-py3-none-any.whl", hash = "sha256:d0762ecb4f0d21cd392d432dcee108ced23f6c0cd7301a651771e997ec154715"},
-    {file = "Jestspectation-0.9.1.tar.gz", hash = "sha256:3d2467086aaab7385df5260cdf5bd1a978f43ee5373903de11b3af8519d435bc"},
+    {file = "jestspectation-1.0.0-py3-none-any.whl", hash = "sha256:08e47615de84fbc14ac1de199853063861c42224a2724cffcc62553f1e6a9691"},
+    {file = "jestspectation-1.0.0.tar.gz", hash = "sha256:1a297c277b8503319222217da565c745c245ff34691f225d3a09aa5aea982c52"},
 ]
 mccabe = [
     {file = "mccabe-0.7.0-py2.py3-none-any.whl", hash = "sha256:6c2d30ab6be0e4a46919781807b4f0d834ebdd6c6e3dca0bda5a15f863427b6e"},
