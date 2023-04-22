@@ -10,7 +10,9 @@ Authors:
 Licensed under the MIT license
 """
 __all__ = [
-    'wait'
+    'wait',
+    'WithwaitAbort',
+    'WithwaitAbortAll',
 ]
 
-from .__withwait import wait
+from .__withwait import wait, WithwaitAbort, WithwaitAbortAll

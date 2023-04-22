@@ -151,14 +151,14 @@ python-versions = ">=3.7"
 name = "typing-extensions"
 version = "4.5.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9.1"
-content-hash = "41e4c94e2308aaadc4e3242176bcc03a7e406de0036c82fe90f86c25c6c58865"
+content-hash = "aabdb053b7d5251def79ec9976e0f7e348ab5c1f6cb6b43aa2be4d7e14d4d14b"
 
 [metadata.files]
 colorama = [
