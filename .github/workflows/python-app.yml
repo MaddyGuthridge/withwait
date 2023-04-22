@@ -23,7 +23,7 @@ jobs:
     - run: poetry install
     - name: Test with pytest
       run: |
-        poetry run -m pytest
+        poetry run pytest
 
   Flake8:
     runs-on: ubuntu-latest
