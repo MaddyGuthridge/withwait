@@ -5,7 +5,7 @@ A simple utility to ensure that sleep operations always complete, even if an
 exception happens within the with statement.
 
 Authors:
-* Miguel Guthridge
+* Maddy Guthridge
 
 Licensed under the MIT license
 """

@@ -4,11 +4,11 @@ version = "0.1.1"
 description = "A simple utility to ensure that sleep operations always complete"
 readme = "README.md"
 
-authors = ["Miguel Guthridge <hdsq@outlook.com.au>"]
+authors = ["Maddy Guthridge <hello@maddyguthridge.com>"]
 license = "MIT"
 
-repository = "https://github.com/MiguelGuthridge/withwait"
-documentation = "https://miguelguthridge.github.io/withwait"
+repository = "https://github.com/MaddyGuthridge/withwait"
+documentation = "https://maddyguthridge.github.io/withwait"
 
 keywords = [
     "testing",
@@ -35,8 +35,8 @@ packages = [
 ]
 
 [tool.poetry.urls]
-"Online Documentation" = "https://github.com/MiguelGuthridge/withwait"
-"Bug Tracker" = "https://github.com/MiguelGuthridge/withwait/issues"
+"Online Documentation" = "https://github.com/MaddyGuthridge/withwait"
+"Bug Tracker" = "https://github.com/MaddyGuthridge/withwait/issues"
 
 [tool.poetry.dependencies]
 python = "^3.9"
